@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hesap Makinesi</title>
+</head>
+<body style="background:#0f172a; color:white; text-align:center;">
 
+<h1>Hesap Makinesi</h1>
+
+<input id="s" readonly style="font-size:30px;width:220px"><br><br>
+
+<button onclick="s.value+='1'">1</button>
+<button onclick="s.value+='2'">2</button>
+<button onclick="s.value+='3'">3</button>
+<button onclick="s.value+='+'">+</button><br>
+
+<button onclick="s.value+='4'">4</button>
+<button onclick="s.value+='5'">5</button>
+<button onclick="s.value+='6'">6</button>
+<button onclick="s.value+='-'">-</button><br>
+
+<button onclick="s.value+='7'">7</button>
+<button onclick="s.value+='8'">8</button>
+<button onclick="s.value+='9'">9</button>
+<button onclick="s.value+='*'">x</button><br>
+
+<button onclick="s.value=''">C</button>
+<button onclick="s.value+='0'">0</button>
+<button onclick="s.value=eval(s.value)">=</button>
+<button onclick="s.value+='/'">/</button>
+
+</body>
+</html>
